@@ -1,0 +1,150 @@
+
+
+.imgs{
+    height: 50px;
+    /* width: 50px; */
+    border-radius: 50%;
+  
+    padding-right: 4px;
+}
+.messageScreen{
+    /* width: 48%; */
+    margin-bottom: 30px;
+      height: 100%;
+      position: relative;
+      /* float: left; */
+      background-color: #F7F9FA;
+      border-collapse: collapse;
+      
+      color: #219269;
+      /* display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column; */
+}
+.name{
+    
+    font-family: poppins;
+  width: 100%;
+    font-weight: bold;
+    color: #000000;
+    letter-spacing: 1px;
+    
+    
+}
+.messageRecieved{
+    margin-top: 8px;
+    margin-left: 8px;
+    width: 50%;
+    float: left;
+    font-family: poppins;
+    background-color:#898989 !important;
+    font-weight: normal;
+    color: #ffff;
+    letter-spacing: 1px;
+    border-radius: 0px 20px 20px 20px;
+}
+.messageSent{
+    margin-top: 8px;
+    margin-right: 8px;
+    width: 50%;
+    float: right;
+    font-family: poppins;
+    background-color:#12A667 !important;
+    font-weight: normal;
+    color: #ffff;
+    letter-spacing: 1px;
+    border-radius: 20px 20px 0px 20px;
+}
+.footter{
+    margin-top: 10px;
+
+    margin-bottom: 2px;
+    width: 100%;
+    height: 60px;
+    float: left;
+    font-family: poppins;
+    background-color:#898989 !important;
+    font-weight: normal;
+    color: #ffff;
+    letter-spacing: 1px;
+    border-radius: 0px 0px 0px 0px;
+    
+}
+input{
+    background-color: transparent !important;
+    border: 0px solid !important;
+    height: 20px ;
+    /* width: 160px ; */
+    color: #fff !important;
+}
+::placeholder { 
+    color: rgb(223, 221, 221);
+    font-family: poppins;
+    font-size: small;
+    opacity: 1; 
+  }
+input:focus{
+    outline: none;
+}
+.attach{
+    position: absolute; right: 20px;
+    margin-right: 50px;
+    align-items: center;
+    
+}
+.sendb{
+    padding-left: px;
+    float: right !important;
+    position: absolute; right: 0px;
+    margin-right: 20px;
+}
+.cam{
+    margin-right: 10px;
+}
+
+h3 {
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px #000000;
+}
+
+.mat-card{
+    background-color: #F7F9FA;
+}
+
+
+.name small{
+    font-size: smaller;
+    color: #12A667;
+    text-shadow: 0px 0px #000000;
+    font-weight: lighter;
+    position: relative;
+    
+}
+
+.icondone{
+    float: right;
+    font-size: 16px;
+    
+}
+.callicon{
+    
+    font-size: 30px;
+    margin-right: 10px;
+    color: #12A667;
+    position: absolute; right: 50px;
+    color: #12A667;
+}
+.videocall{
+    font-size: 30px;
+    margin-right: 10px;
+    color: #12A667;
+    position: absolute; right: 0px;
+}
+
+.icondrag{
+    padding-left: 150px;
+}
+
+
